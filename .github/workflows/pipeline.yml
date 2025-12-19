@@ -1,11 +1,11 @@
-name: CI Pipeline 
+name: CI Pipeline
 
-on: 
+on:
   push:
     brances: [ main ]
 
-jobs: 
-  build: 
+jobs:
+  build:
     runs-on: ubuntu-latest
 
   steps:
@@ -14,11 +14,11 @@ jobs:
 
     - name: Setup Nodejs
       uses: actions/setup-node@v3
-      with: 
+      with:
         node-version: 16
 
     - name: Install Dependencies
-      run: npm install 
+      run: npm install
 
-    - name: Run tests 
-      run: npm test 
+    - name: Run tests
+      run: npm test
