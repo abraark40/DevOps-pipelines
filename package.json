@@ -1,0 +1,22 @@
+{
+  "name": "devops-pipelines",
+  "version": "1.0.0",
+  "description": "Hi",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "run": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abraark40/DevOps-pipelines.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/abraark40/DevOps-pipelines/issues"
+  },
+  "homepage": "https://github.com/abraark40/DevOps-pipelines#readme"
+}
